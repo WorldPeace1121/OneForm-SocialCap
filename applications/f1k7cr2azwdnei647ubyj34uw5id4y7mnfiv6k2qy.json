@@ -35,11 +35,11 @@
     "Weekly Allocation": "1TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-10-10 11:42:11.549275074 UTC",
+    "State": "Granted",
+    "Validated At": "2025-10-10 11:45:37.637752301 UTC",
     "Validated By": "WorldPeace1121",
     "Active": true,
-    "Updated At": "2025-10-10 11:42:11.549280302 UTC",
+    "Updated At": "2025-10-10 11:45:37.637749122 UTC",
     "Active Request ID": "52357a51-b38d-4e64-a2a4-6211e94874dd",
     "On Chain Address": "f1k7cr2azwdnei647ubyj34uw5id4y7mnfiv6k2qy",
     "Multisig Address": "false",
@@ -51,9 +51,16 @@
       "Request Type": "First",
       "Created At": "2025-10-10 11:42:11.549283168 UTC",
       "Updated At": "2025-10-10 11:42:11.549284549 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "1099511627776 B",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "WorldPeace1121",
+          "Signing Address": "f15bhsxs5ty57uaaghoc4gllftwfltacra4earczq",
+          "Created At": "2025-10-10 11:45:35.055000000 UTC",
+          "Message CID": "bafy2bzaceaftzfllxoz75nxyc26oh4onpem7s2lrqgpe2r4yvdl4qbadsuvg6"
+        }
+      ]
     }
   ]
 }
