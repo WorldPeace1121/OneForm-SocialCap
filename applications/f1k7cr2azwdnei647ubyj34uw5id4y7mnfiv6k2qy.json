@@ -35,25 +35,15 @@
     "Weekly Allocation": "1TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-10-10 11:30:43.748188371 UTC",
-    "Validated By": "WorldPeace1121",
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
     "Active": true,
-    "Updated At": "2025-10-10 11:30:43.748193195 UTC",
-    "Active Request ID": "6e9cef4e-44cb-4939-8199-fadadb16d059",
+    "Updated At": "2025-10-10 11:41:46.976563424 UTC",
+    "Active Request ID": "",
     "On Chain Address": "f1k7cr2azwdnei647ubyj34uw5id4y7mnfiv6k2qy",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": [
-    {
-      "ID": "6e9cef4e-44cb-4939-8199-fadadb16d059",
-      "Request Type": "First",
-      "Created At": "2025-10-10 11:30:43.748195436 UTC",
-      "Updated At": "2025-10-10 11:30:43.748196429 UTC",
-      "Active": true,
-      "Allocation Amount": "1099511627776 B",
-      "Signers": []
-    }
-  ]
+  "Allocation Requests": []
 }
