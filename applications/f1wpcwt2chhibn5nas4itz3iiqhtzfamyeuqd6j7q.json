@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f1wpcwt2chhibn5nas4itz3iiqhtzfamyeuqd6j7q",
+  "Issue Number": "3",
+  "Client": {
+    "Name": "Hellodajiahao81",
+    "Region": "China",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://registry.opendata.aws/1000-genomes/",
+    "Social Media": "https://x.com/Hellodajiahao81",
+    "Social Media Type": "Twitter",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Genomes of over 2,000 people from 20+ populations were sequenced, producing about 100 million variants. The data is now publicly available; citation details are on the official website.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Whole-genome sequencing data from 2,000+ individuals in 20+ populations, including ~100 million variants from the 1000 Genomes Project.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "The dataset will be organized and verified using AWS S3 tools before transfer. Files will be packaged in batches, validated with SHA256 checksums, and then uploaded to Filecoin using the Lotus client and Boost for deal management. Metadata and CAR files will be generated with go-car tooling, ensuring data integrity and retrievability.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "s3://1000genomes/alignment_indices/20100517.alignment.index s3://1000genomes/pilot_data/technical/working/20100505_pilot3_validation/series5/p3-series5-singleton-picks-v01.txt s3://1000genomes/technical/method_development/cram/lossy-bins-no-tags/HG01383/HG01383.chrom20.ILLUMINA.bwa.CLM.exome.20111114_lossy-bins-no-tags.bam.cram s3://1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989092/HG02889.final.cram.crai s3://1000genomes/technical/browser/1000genomes_browser_main_project_20110521_e69_37/homo_sapiens_variation_69_37/attrib.69_37_var_table.txt.gz",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Asia other than Greater China, North America, Europe",
+    "How will you be distributing your data to storage providers": "Lotus built-in data transfer",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03641915 Brazil f03641951 HongKong f03641955 Germany f03641974 Vietnam f03641984 Brazil f03641964 United States",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "6.6PiB",
+    "Single Size Dataset": "845TiB",
+    "Replicas": 8,
+    "Weekly Allocation": "1PiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-10-15 13:54:06.506306304 UTC",
+    "Validated By": "WorldPeace1121",
+    "Active": true,
+    "Updated At": "2025-10-15 13:54:06.506301838 UTC",
+    "Active Request ID": "0e1fb407-95b1-4f85-a47c-434ad800dce7",
+    "On Chain Address": "f1wpcwt2chhibn5nas4itz3iiqhtzfamyeuqd6j7q",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "0e1fb407-95b1-4f85-a47c-434ad800dce7",
+      "Request Type": "First",
+      "Created At": "2025-10-15 13:46:50.787807798 UTC",
+      "Updated At": "2025-10-15 13:46:50.787808844 UTC",
+      "Active": false,
+      "Allocation Amount": "549755813888000 B",
+      "Signers": [
+        {
+          "Github Username": "WorldPeace1121",
+          "Signing Address": "f15bhsxs5ty57uaaghoc4gllftwfltacra4earczq",
+          "Created At": "2025-10-15 13:54:03.501000000 UTC",
+          "Message CID": "bafy2bzacedov5i2xogvvfkeuekxpp2picd5d5ofdris7w3mxvoppqpsi5tod4"
+        }
+      ]
+    }
+  ]
+}
