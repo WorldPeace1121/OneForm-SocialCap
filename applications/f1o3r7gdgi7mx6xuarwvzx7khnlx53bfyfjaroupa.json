@@ -35,7 +35,7 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "ChangesRequested",
     "Validated At": "2025-10-29 15:26:05.733191943 UTC",
     "Validated By": "WorldPeace1121",
     "Active": true,
@@ -43,7 +43,7 @@
     "Active Request ID": "805104a8-a60b-4965-9194-37079dfdbe3a",
     "On Chain Address": "f1o3r7gdgi7mx6xuarwvzx7khnlx53bfyfjaroupa",
     "Multisig Address": "false",
-    "edited": true
+    "edited": false
   },
   "Allocation Requests": [
     {
